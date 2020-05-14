@@ -1,0 +1,17 @@
+#car-item {
+    width: 100% !important;
+    height: 40rem !important;
+    /* margin-left: 25% !important; */
+
+}
+
+.carousel-caption {
+    bottom: 28rem !important;
+}
+.collapsible-header {
+    height: 5rem !important;
+    width: 15rem;
+}
+.collapsible-body {
+    padding: 15rem !important;
+}

@@ -1,0 +1,15 @@
+#service-card {
+    background-color: #155d74;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    color: white;
+    text-shadow: rgb(45, 15, 216) 4px 2px !important;
+    height: 27rem !important;
+    margin: 10px !important;
+    border: 0.25vh deepskyblue solid;
+  }
+
+  .card-header {
+    text-shadow: rgb(45, 15, 216) 4px 2px !important;
+    border: 3px solid rgba(16, 53, 155, 0.466) !important;
+  }

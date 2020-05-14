@@ -1,0 +1,25 @@
+#service-card {
+  background-color: #155d74;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, serif;
+  color: rgb(221, 198, 198);
+  text-shadow: black 2px 1px;
+  
+}
+#appraisal-image {
+  border: solid 1px silver !important;
+}
+
+#page-header {
+  text-shadow: crimson 1.5px 1.5px !important;
+}
+.col-md-5 {
+  text-shadow: rgb(124, 23, 23) 1.5px 1.5px !important;
+}
+
+.breadcrumb-item,
+.breadcrumb-item a
+ {
+  text-shadow: 2px 2px slateblue !important;
+  color: snow !important;
+}

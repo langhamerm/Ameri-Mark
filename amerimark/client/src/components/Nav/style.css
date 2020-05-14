@@ -1,0 +1,77 @@
+
+a {
+    /* color: white; */
+    text-shadow: rgba(216, 52, 52, 0.698) 2px 1px !important;
+}
+
+.navbar-brand:hover
+ {
+    text-shadow: navy 2px 3px !important;
+    color: cyan !important;
+}
+
+.navbar-brand {
+    /* position: relative; */
+    font-size: 2.5em !important;
+    /* text-shadow: darkcyan 2px 1px; */
+    /* right: 7em !important; */
+
+}
+
+nav{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    /* color: white; */
+    /* text-shadow: rgb(238, 0, 0) 2px 1px; */
+    border-bottom: 2px solid rgba(127, 144, 161, 0.479) !important;
+}
+footer {
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    /* color: white; */
+    /* text-shadow: rgb(238, 0, 0) 2px 1px; */
+    border: 2px solid rgba(127, 144, 161, 0.479) !important;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    /* color: white; */
+}
+
+.nav-link {
+    color: white !important;
+    text-shadow: rgba(216, 52, 52, 0.698) 2px 1px !important;
+    font-size: large;
+    
+}
+
+.nav-link:hover {
+    color: cyan !important;
+    /* text-shadow: rgba(216, 52, 52, 0.698) 2px 1px !important; */
+}
+
+.dropdown-menu {
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    /* color: white !important; */
+    /* text-shadow: navy 1px 1px !important; */
+    background:rgba(0, 0, 0, 0.815) !important;
+    border: 1px solid rgba(12, 144, 206, 0.671) !important;
+    width: 40em;
+}
+.dropdown-item:hover {
+    /* text-shadow: rgb(124, 135, 235) 3px 2px !important; */
+    /* color: rgb(113, 64, 248)) !important; */
+    font-weight: bolder !important;
+}
+.dropdown-item {
+    border-bottom: 1px solid rgba(12, 144, 206, 0) !important;
+    text-shadow: blueviolet 2px 1px !important;
+    font-weight: bold !important;
+    font-size: larger;
+    width: 100% !important;
+    color: turquoise !important;
+}
+.dropdown-menu:hover {
+    
+}
