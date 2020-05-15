@@ -32,4 +32,3 @@ steps:
     echo "$PACKAGE_VERSION" > version.txt
   displayName: Set version number of package and build
 
-- template: common-steps.yml
