@@ -4,6 +4,7 @@
 # must remain as close to one another as possible.
 #
 # Developer experience:
+
 #   npm install
 #   (make changes)
 #   npm test
@@ -32,3 +33,13 @@ steps:
     echo "$PACKAGE_VERSION" > version.txt
   displayName: Set version number of package and build
 
+- task: VisualStudioTestPlatformInstaller@1
+  inputs:
+    packageFeedSelector: 'nugetOrg'
+    versionSelector: 'latestPreRelease'
+- task: DeployVisualStudioTestAgent@1
+  inputs:
+    testMachineGroup: 
+    machineUserName: 'test123@test.com'
+    machinePassword: 'test123'
+    runAsProcess: true
